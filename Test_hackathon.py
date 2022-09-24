@@ -32,3 +32,31 @@ def check_form(data):
         print("full name is valid")
 
 #for checking Username
+Username=input("Enter your username:")
+def check_form(data):
+    if data['Username'].isdigit():
+        print(f"'Username'looks like invalid")
+    else:
+        print("username is valid")
+#for checking Age
+Age=input("Enter the date of birth:")
+def check_form(data):
+    if data['Age'] <=0:
+        print(f"'Age'looks invalid")
+    else:
+        print("Age is valid")
+#for checking for password
+Password=input("Enter your password")
+def check_form(data):
+    if data['password'] != data['password']:
+        print(f"'password'looks invalid")
+    else:
+        print("password is valid")
+
+#for checking organization id
+Organization_id=("Enter organization id")
+def check_form(data):
+    if data['organition id'] <=0:
+        print(f"'organition id'looks invalid")
+    else:
+        print("organization id is valid")
