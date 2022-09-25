@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 #for checking name
-First,Middle,Last=input("Enter your Full name of First,Middle and Last")
+First,Middle,Last=input("Enter your Full name of First,Middle and Last).split()
 print("First name :",First)
 print("Middle name:",Middle)
 print("Last name:",Last)
